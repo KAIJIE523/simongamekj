@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+}
+
+#game-board {
+  width: 300px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  grid-gap: 20px;
+}
+
+.btn {
+  width: 140px;
+  height: 140px;
+  border-radius: 15px;
+  opacity: 0.8;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#green { background: green; }
+#red { background: red; }
+#yellow { background: gold; }
+#blue { background: blue; }
+
+.active {
+  opacity: 1;
+  box-shadow: 0 0 20px white;
+}
